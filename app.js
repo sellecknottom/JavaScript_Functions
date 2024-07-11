@@ -11,7 +11,7 @@ function printOdds(count) {
     }
   } else if (count == 0) {
     //checks for 0
-    return console.log(count);
+    console.log(count);
   }
   for (θ = 1; θ <= count; θ++) {
     //returns odd positive numbers
@@ -20,6 +20,10 @@ function printOdds(count) {
     }
   }
 }
+//Tests
+printOdds(-50)
+printOdds(50)
+printOdds(0)
 
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
